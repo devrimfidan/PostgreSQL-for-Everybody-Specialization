@@ -79,6 +79,23 @@ VALUES ('Smoke on the Water', 5, 300, 0, 3, 3);
 -- Add more INSERT statements as needed.
 ```
 
+
+## How to Use
+
+1. **Clone:** Clone this repository.
+2. **Connect:** Connect to your PostgreSQL database using `psql` or a database management tool.
+3. **Execute SQL:**
+    * **Copy/Paste:** Copy and paste SQL code into `psql`. Press Enter to execute.
+    * **SQL Script:** Save SQL code to a file (e.g., `music_database.sql`). In `psql`, use `\i music_database.sql`.
+4. **Verify:** Use `SELECT` statements to check the tables and data. For example:
+
+```sql
+SELECT * FROM artist;
+SELECT * FROM album;
+SELECT * FROM genre;
+SELECT * FROM track;
+```
+
 ## Important Notes
 Order: Execute CREATE TABLE before INSERT. Insert into artist and genre before album and track (due to foreign keys).
 Data Types: Ensure data types match. Strings are in single quotes (e.g., 'Artist Name'), numbers are not.
