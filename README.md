@@ -2,13 +2,9 @@
 
 I've created this space **for learning purposes only**, based on the **PostgreSQL for Everybody Specialization** by **Dr. Charles Russell Severance (Dr. Chuck)** on Coursera.
 
-## Course Overview
+## Specialization Overview
 
 Through this specialization, I explore SQL (Structured Query Language) and database design principles. I cover fundamental SQL syntax, working with single and multiple tables, and designing databases with one-to-many and many-to-many relationships. With hands-on exercises and practical examples, I develop the skills needed to effectively interact with and manage relational databases.
-
-## Course Structure
-
-Specialization is divided into four modules:
 
 - [**Module 1: Introduction to SQL**](#module-1-introduction-to-sql)
 - [**Module 2: Single Table SQL**](#module-2-single-table-sql)
