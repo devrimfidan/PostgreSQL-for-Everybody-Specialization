@@ -124,7 +124,7 @@ SELECT * FROM artist;
 
 
 ---
-
+`COURSE 1: Database Design and Basic SQL in PostgreSQL`
 # Module 2: Single Table SQL
 
 Here, I focus on working with a single table and explore advanced querying techniques.
@@ -248,7 +248,7 @@ SELECT * FROM album;
 
 
 ---
-
+`COURSE 1: Database Design and Basic SQL in PostgreSQL`
 # Module 3: One-To-Many Data Models
 
 This module introduces the concept of one-to-many relationships using foreign keys.
@@ -290,7 +290,7 @@ WHERE artist.name = 'The Beatles';
 ```
 
 ---
-
+`COURSE 1: Database Design and Basic SQL in PostgreSQL`
 # Module 4: Many-To-Many Data Models
 
 Here, I learn about many-to-many relationships using junction tables.
