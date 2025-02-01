@@ -12,7 +12,7 @@ Through this specialization, I explore SQL (Structured Query Language) and datab
 - [**Module 3: One-To-Many Data Models**](#module-3-one-to-many-data-models)
 - [**Module 4: Many-To-Many Data Models**](#module-4-many-to-many-data-models)
 
-## PostgreSQL for Everybody - `COURSE:2 INTERMEDIATE POSTGRESQL`
+## COURSE:2 INTERMEDIATE POSTGRESQL
 - [Module 1: SQL Techniques](#module-1-sql-techniques)
 - [Module 2: Using SQL Techniques](#module-2-using-sql-techniques)
 - [Module 3: Text in PostgreSQL](#module-3-text-in-postgresql)
