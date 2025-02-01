@@ -323,6 +323,85 @@ WHERE playlist.name = 'My Favorites';
 INSERT INTO playlist_track (playlist_id, track_id) VALUES (1, 5);
 ```
 
+- Building a Many-to-Many Roster:
+```sql
+-- Create the 'student' table
+CREATE TABLE student (
+    id SERIAL,
+    name VARCHAR(128) UNIQUE,
+    PRIMARY KEY(id)
+);
+
+-- Create the 'course' table
+DROP TABLE IF EXISTS course CASCADE;
+CREATE TABLE course (
+    id SERIAL,
+    title VARCHAR(128) UNIQUE,
+    PRIMARY KEY(id)
+);
+
+-- Create the 'roster' table
+DROP TABLE IF EXISTS roster CASCADE;
+CREATE TABLE roster (
+    id SERIAL,
+    student_id INTEGER REFERENCES student(id) ON DELETE CASCADE,
+    course_id INTEGER REFERENCES course(id) ON DELETE CASCADE,
+    role INTEGER,
+    UNIQUE(student_id, course_id),
+    PRIMARY KEY (id)
+);
+
+-- Insert data into the 'student' table
+INSERT INTO student (name) VALUES
+('Angali'),
+('Awais'),
+('Lennox'),
+('Maanav'),
+('Roy'),
+('Prinay'),
+('Caidan'),
+('Catherine'),
+('Malikye'),
+('Zhen'),
+('Nia'),
+('Aadam'),
+('Abhia'),
+('Morven'),
+('Torquil');
+
+-- Insert data into the 'course' table
+INSERT INTO course (title) VALUES
+('si106'),
+('si110'),
+('si206');
+
+-- Insert data into the 'roster' table with roles
+INSERT INTO roster (student_id, course_id, role) VALUES
+((SELECT id FROM student WHERE name = 'Angali'), (SELECT id FROM course WHERE title = 'si106'), 1),  -- Instructor for si106
+((SELECT id FROM student WHERE name = 'Awais'), (SELECT id FROM course WHERE title = 'si106'), 0),   -- Learner for si106
+((SELECT id FROM student WHERE name = 'Lennox'), (SELECT id FROM course WHERE title = 'si106'), 0),  -- Learner for si106
+((SELECT id FROM student WHERE name = 'Maanav'), (SELECT id FROM course WHERE title = 'si106'), 0),  -- Learner for si106
+((SELECT id FROM student WHERE name = 'Roy'), (SELECT id FROM course WHERE title = 'si106'), 0),     -- Learner for si106
+((SELECT id FROM student WHERE name = 'Prinay'), (SELECT id FROM course WHERE title = 'si110'), 1),  -- Instructor for si110
+((SELECT id FROM student WHERE name = 'Caidan'), (SELECT id FROM course WHERE title = 'si110'), 0),  -- Learner for si110
+((SELECT id FROM student WHERE name = 'Catherine'), (SELECT id FROM course WHERE title = 'si110'), 0), -- Learner for si110
+((SELECT id FROM student WHERE name = 'Malikye'), (SELECT id FROM course WHERE title = 'si110'), 0),  -- Learner for si110
+((SELECT id FROM student WHERE name = 'Zhen'), (SELECT id FROM course WHERE title = 'si110'), 0),    -- Learner for si110
+((SELECT id FROM student WHERE name = 'Nia'), (SELECT id FROM course WHERE title = 'si206'), 1),     -- Instructor for si206
+((SELECT id FROM student WHERE name = 'Aadam'), (SELECT id FROM course WHERE title = 'si206'), 0),  -- Learner for si206
+((SELECT id FROM student WHERE name = 'Abhia'), (SELECT id FROM course WHERE title = 'si206'), 0),  -- Learner for si206
+((SELECT id FROM student WHERE name = 'Morven'), (SELECT id FROM course WHERE title = 'si206'), 0), -- Learner for si206
+((SELECT id FROM student WHERE name = 'Torquil'), (SELECT id FROM course WHERE title = 'si206'), 0); -- Learner for si206
+
+-- Query to test the data entry
+SELECT student.name, course.title, roster.role
+FROM student 
+JOIN roster ON student.id = roster.student_id
+JOIN course ON roster.course_id = course.id
+ORDER BY course.title, roster.role DESC, student.name;
+
+```
+
 ---
 
 ## Acknowledgements
