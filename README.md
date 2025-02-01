@@ -43,6 +43,7 @@ In this module, I dive into SQL fundamentals, learning the basic syntax, creatin
 
 ### Sample Queries
 
+#### 1. **Creating tables (`CREATE TABLE`)**
 - Table Creation:
 
 ```sql
@@ -78,7 +79,7 @@ CREATE TABLE track (
 );
 ```
 
-
+#### 2. **Inserting Data (`INSERT INTO`)**
 - Retrieve all artists:
 
 ```sql
@@ -171,7 +172,7 @@ This module introduces the concept of one-to-many relationships using foreign ke
 - Querying data across multiple tables
 - Understanding JOIN operations
 
-### Example: SQL Query with JOINs
+### Sample Queries
 
 ```sql
 SELECT track.title, artist.name, album.title, genre.name
@@ -180,8 +181,6 @@ JOIN genre ON track.genre_id = genre.id
 JOIN album ON track.album_id = album.id
 JOIN artist ON album.artist_id = artist.id;
 ```
-
-### Sample Queries
 
 - Retrieve all tracks from a specific album:
 
