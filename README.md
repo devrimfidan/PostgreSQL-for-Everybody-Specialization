@@ -42,7 +42,10 @@ CREATE TABLE track (
 
 ## Populating the Database (Example Data)
 
-These SQL statements demonstrate data insertion. Replace this example data with your own.  album_id and genre_id must reference existing ids in the album and genre tables, respectively, to avoid errors.
+These SQL statements demonstrate data insertion.
+Replace this example data with your own.  
+album_id and genre_id must reference existing ids 
+in the album and genre tables, respectively, to avoid errors.
 
 
 -- Insert Artists
