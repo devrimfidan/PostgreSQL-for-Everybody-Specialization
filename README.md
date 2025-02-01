@@ -50,9 +50,7 @@ This module introduces the fundamentals of SQL.  We will cover basic syntax, cre
 
 ## Resources
 
----
-
-## Table Creation
+### Table Creation
 
 The following SQL statements create the necessary tables for the music database:
 
@@ -89,8 +87,7 @@ CREATE TABLE track (
 );
 ```
 
-
-## Populating the Database (Example Data)
+### Populating the Database (Example Data)
 
 These SQL statements demonstrate data insertion.
 Replace this example data with your own.  
@@ -128,7 +125,7 @@ VALUES ('Smoke on the Water', 5, 300, 0, 3, 3);
 -- Add more INSERT statements as needed.
 ```
 
-## Important Notes
+### Important Notes
 Order: Execute CREATE TABLE before INSERT. Insert into artist and genre before album and track (due to foreign keys).
 Data Types: Ensure data types match. Strings are in single quotes (e.g., 'Artist Name'), numbers are not.
 Foreign Keys: album_id and genre_id in track must reference valid ids in album and genre.
