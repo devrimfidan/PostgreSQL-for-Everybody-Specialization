@@ -6,11 +6,18 @@ I've created this space **for learning purposes only**, based on the **PostgreSQ
 
 Through this specialization, I explore SQL (Structured Query Language) and database design principles. I cover fundamental SQL syntax, working with single and multiple tables, and designing databases with one-to-many and many-to-many relationships. With hands-on exercises and practical examples, I develop the skills needed to effectively interact with and manage relational databases.
 
-## COURSE 1: Database Design and Basic SQL in PostgreSQL
+## PostgreSQL for Everybody - `Course 1: Database Design and Basic SQL in PostgreSQL`
 - [**Module 1: Introduction to SQL**](#module-1-introduction-to-sql)
 - [**Module 2: Single Table SQL**](#module-2-single-table-sql)
 - [**Module 3: One-To-Many Data Models**](#module-3-one-to-many-data-models)
 - [**Module 4: Many-To-Many Data Models**](#module-4-many-to-many-data-models)
+
+## PostgreSQL for Everybody - `Course:2 Intermediate PostgreSQL`
+- [Module 1: SQL Techniques](#module-1-sql-techniques)
+- [Module 2: Using SQL Techniques](#module-2-using-sql-techniques)
+- [Module 3: Text in PostgreSQL](#module-3-text-in-postgresql)
+- [Module 4: Regular Expressions](#module-4-regular-expressions)
+
 
 ## Learning Objectives
 
@@ -402,6 +409,29 @@ JOIN course ON roster.course_id = course.id
 ORDER BY course.title, roster.role DESC, student.name;
 
 ```
+
+---
+
+# PostgreSQL for Everybody - `Course:2 Intermediate PostgreSQL`
+---
+`Course:2 Intermediate PostgreSQL`
+## Module 1: SQL Techniques
+In this first week, you'll be introduced to the course and look at SQL commands for editing columns and tables in a PostgreSQL Database. You'll learn to create stored procedures and also utilize the `SELECT DISTINCT` command.
+
+---
+`Course:2 Intermediate PostgreSQL`
+## Module 2: Using SQL Techniques
+This week, we'll focus on producing properly normalized tables from CSV files and utilizing the `ALTER TABLE` command to adjust the schema of tables.
+
+---
+`Course:2 Intermediate PostgreSQL`
+## Module 3: Text in PostgreSQL
+This week will focus on text in PostgreSQL, including utilizing character sets, identifying hashtag algorithms and attributes, as well as index choices and techniques.
+
+---
+`Course:2 Intermediate PostgreSQL`
+## Module 4: Regular Expressions
+In our final week, we will focus on regular expressions: their functions, and how to construct them to select rows from a table that match a pattern.
 
 ---
 
