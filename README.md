@@ -179,6 +179,73 @@ SELECT * FROM artist ORDER BY name ASC;
 SELECT * FROM album ORDER BY title;
 ```
 
+
+
+#### 3. **Aggregating Data (`GROUP BY` aggregate functions)**
+
+- Count the number of albums for each artist:
+```sql
+SELECT artist_id, COUNT(*) AS num_albums
+FROM album
+GROUP BY artist_id;
+```
+
+- Find the average length of tracks in each genre:
+```sql
+SELECT genre_id, AVG(len) AS avg_track_length
+FROM track
+GROUP BY genre_id;
+```
+
+- Get the total number of tracks for each album:
+```sql
+SELECT album_id, COUNT(*) AS num_tracks
+FROM track
+GROUP BY album_id;
+```
+
+#### 4. **Auto-Incrementing Fields(`SERIAL`)**
+
+- Insert a new artist into the artist table (auto-incrementing id):
+```sql
+INSERT INTO artist (name) VALUES ('The Rolling Stones');
+```
+
+- Insert a new album into the album table (auto-incrementing id):
+```sql
+INSERT INTO album (title, artist_id) VALUES ('Sticky Fingers', 1);
+```
+
+- Insert a new track into the track table (auto-incrementing id):
+```sql
+INSERT INTO track (title, len, rating, count, album_id, genre_id)
+VALUES ('Start Me Up', 234, 5, 0, 1, 1);
+```
+
+#### 5. **Working with CSV Data**
+
+- Import data from a CSV file into the artist table:
+```sql
+COPY artist (name)
+FROM '/path/to/your/artist_data.csv'
+DELIMITER ','
+CSV HEADER;
+```
+
+- Import data from a CSV file into the album table:
+```sql
+COPY album (title, artist_id)
+FROM '/path/to/your/album_data.csv'
+DELIMITER ','
+CSV HEADER;
+```
+
+- Query the album table to check the imported data:
+```sql
+SELECT * FROM album;
+```
+
+
 ---
 
 # Module 3: One-To-Many Data Models
