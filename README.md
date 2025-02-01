@@ -1,14 +1,14 @@
 # PostgreSQL for Everybody Specialization
 
-This GitHub repository is created for **learning purposes only** and is based on the **PostgreSQL for Everybody Specialization** by **Dr. Charles Russell Severance (Dr. Chuck)** on Coursera.
+I've created this space **for learning purposes only**, based on the **PostgreSQL for Everybody Specialization** by **Dr. Charles Russell Severance (Dr. Chuck)** on Coursera.
 
 ## Course Overview
 
-This specialization provides a comprehensive introduction to SQL (Structured Query Language) and database design principles. It covers fundamental SQL syntax, working with single and multiple tables, and designing databases with one-to-many and many-to-many relationships. Through hands-on exercises and practical examples, learners gain the skills necessary to effectively interact with and manage relational databases.
+Through this specialization, I explore SQL (Structured Query Language) and database design principles. I cover fundamental SQL syntax, working with single and multiple tables, and designing databases with one-to-many and many-to-many relationships. With hands-on exercises and practical examples, I develop the skills needed to effectively interact with and manage relational databases.
 
 ## Course Structure
 
-The course is divided into four modules:
+Specialization is divided into four modules:
 
 - [**Module 1: Introduction to SQL**](#module-1-introduction-to-sql)
 - [**Module 2: Single Table SQL**](#module-2-single-table-sql)
@@ -17,7 +17,7 @@ The course is divided into four modules:
 
 ## Learning Objectives
 
-Upon completion of this specialization, learners will be able to:
+By the time I complete this specialization, hopefully I will be able to:
 
 - Write basic SQL queries to retrieve and manipulate data.
 - Design and create database tables.
@@ -25,19 +25,11 @@ Upon completion of this specialization, learners will be able to:
 - Work with real-world datasets.
 - Apply database design principles to solve practical problems.
 
-## Prerequisites
-
-No prior experience with SQL or databases is required. A basic understanding of computers and file management is helpful.
-
-## Software
-
-The PostgreSQL database management system will be used. Instructions for installation and setup are provided in Module 1.
-
 ---
 
 # Module 1: Introduction to SQL
 
-This module introduces the fundamentals of SQL, covering basic syntax, creating tables, and inserting data.
+In this module, I dive into SQL fundamentals, learning the basic syntax, creating tables, and inserting data.
 
 ### Topics Covered
 
@@ -89,7 +81,7 @@ INSERT INTO artist (name) VALUES ('The Beatles');
 
 # Module 2: Single Table SQL
 
-This module focuses on working with single tables and explores more advanced querying techniques.
+Here, I focus on working with a single table and explore advanced querying techniques.
 
 ### Topics Covered
 
@@ -167,7 +159,7 @@ WHERE artist.name = 'The Beatles';
 
 # Module 4: Many-To-Many Data Models
 
-This module covers many-to-many relationships using junction tables.
+Here, I learn about many-to-many relationships using junction tables.
 
 ### Topics Covered
 
@@ -202,4 +194,4 @@ INSERT INTO playlist_track (playlist_id, track_id) VALUES (1, 5);
 
 ## Acknowledgements
 
-This repository is **for learning purposes only** and is inspired by the **PostgreSQL for Everybody Specialization** by **Dr. Chuck** on Coursera. All credit goes to Dr. Chuck for his excellent teaching and resources.
+This repository is **for learning purposes only** and is based on the **PostgreSQL for Everybody Specialization** by **Dr. Chuck** on Coursera. All credit goes to Dr. Chuck for his excellent teaching and resources.
