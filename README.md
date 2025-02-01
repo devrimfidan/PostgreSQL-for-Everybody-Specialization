@@ -39,6 +39,7 @@ CREATE TABLE track (
   UNIQUE(title, album_id),
   PRIMARY KEY (id)
 );
+```
 
 ## Populating the Database (Example Data)
 
@@ -47,7 +48,7 @@ Replace this example data with your own.
 album_id and genre_id must reference existing ids 
 in the album and genre tables, respectively, to avoid errors.
 
-
+```sql
 -- Insert Artists
 INSERT INTO artist (name) VALUES ('Led Zeppelin');
 INSERT INTO artist (name) VALUES ('AC/DC');
@@ -76,7 +77,7 @@ INSERT INTO track (title, rating, len, count, album_id, genre_id)
 VALUES ('Smoke on the Water', 5, 300, 0, 3, 3);
 
 -- Add more INSERT statements as needed.
-
+```
 
 ## Important Notes
 Order: Execute CREATE TABLE before INSERT. Insert into artist and genre before album and track (due to foreign keys).
