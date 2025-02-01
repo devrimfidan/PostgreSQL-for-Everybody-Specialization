@@ -39,3 +39,37 @@ CREATE TABLE track (
   UNIQUE(title, album_id),
   PRIMARY KEY (id)
 );
+
+## Populating the Database (Example Data)
+
+These SQL statements demonstrate data insertion. Replace this example data with your own.  album_id and genre_id must reference existing ids in the album and genre tables, respectively, to avoid errors.
+
+
+-- Insert Artists
+INSERT INTO artist (name) VALUES ('Led Zeppelin');
+INSERT INTO artist (name) VALUES ('AC/DC');
+INSERT INTO artist (name) VALUES ('Deep Purple');
+
+-- Insert Genres
+INSERT INTO genre (name) VALUES ('Rock');
+INSERT INTO genre (name) VALUES ('Metal');
+INSERT INTO genre (name) VALUES ('Hard Rock');
+
+-- Insert Albums (referencing artists by ID)
+INSERT INTO album (title, artist_id) VALUES ('Led Zeppelin IV', 1);
+INSERT INTO album (title, artist_id) VALUES ('Who Made Who', 2);
+INSERT INTO album (title, artist_id) VALUES ('Machine Head', 3);
+
+-- Insert Tracks (referencing albums and genres by ID)
+INSERT INTO track (title, rating, len, count, album_id, genre_id)
+VALUES ('Black Dog', 5, 297, 0, 1, 1);
+INSERT INTO track (title, rating, len, count, album_id, genre_id)
+VALUES ('Stairway to Heaven', 5, 482, 0, 1, 1);
+INSERT INTO track (title, rating, len, count, album_id, genre_id)
+VALUES ('About to Rock', 5, 313, 0, 2, 2);
+INSERT INTO track (title, rating, len, count, album_id, genre_id)
+VALUES ('Who Made Who', 5, 207, 0, 2, 2);
+INSERT INTO track (title, rating, len, count, album_id, genre_id)
+VALUES ('Smoke on the Water', 5, 300, 0, 3, 3);
+
+-- Add more INSERT statements as needed.
