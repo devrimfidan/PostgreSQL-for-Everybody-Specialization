@@ -31,8 +31,6 @@ By the time I complete this specialization, hopefully I will be able to:
 
 ---
 # COURSE 1: DATABASE DESIGN AND BASIC SQL IN POSTGRESQL
-
-`COURSE 1: DATABASE DESIGN AND BASIC SQL IN POSTGRESQL`
 ## Module 1: Introduction to SQL
 
 In this module, I dive into SQL fundamentals, learning the basic syntax, creating tables, and inserting data.
@@ -133,7 +131,6 @@ SELECT * FROM artist;
 
 
 ---
-`COURSE 1: DATABASE DESIGN AND BASIC SQL IN POSTGRESQL`
 ## Module 2: Single Table SQL
 
 Here, I focus on working with a single table and explore advanced querying techniques.
@@ -257,7 +254,6 @@ SELECT * FROM album;
 
 
 ---
-`COURSE 1: DATABASE DESIGN AND BASIC SQL IN POSTGRESQL`
 ## Module 3: One-To-Many Data Models
 
 This module introduces the concept of one-to-many relationships using foreign keys.
@@ -299,7 +295,6 @@ WHERE artist.name = 'The Beatles';
 ```
 
 ---
-`COURSE 1: DATABASE DESIGN AND BASIC SQL IN POSTGRESQL`
 ## Module 4: Many-To-Many Data Models
 
 Here, I learn about many-to-many relationships using junction tables.
@@ -414,23 +409,18 @@ ORDER BY course.title, roster.role DESC, student.name;
 
 ---
 # COURSE:2 INTERMEDIATE POSTGRESQL
-
-`COURSE:2 INTERMEDIATE POSTGRESQL`
 ## Module 1: SQL Techniques
 In this first week, you'll be introduced to the course and look at SQL commands for editing columns and tables in a PostgreSQL Database. You'll learn to create stored procedures and also utilize the `SELECT DISTINCT` command.
 
 ---
-`COURSE:2 INTERMEDIATE POSTGRESQL`
 ## Module 2: Using SQL Techniques
 This week, we'll focus on producing properly normalized tables from CSV files and utilizing the `ALTER TABLE` command to adjust the schema of tables.
 
 ---
-`COURSE:2 INTERMEDIATE POSTGRESQL`
 ## Module 3: Text in PostgreSQL
 This week will focus on text in PostgreSQL, including utilizing character sets, identifying hashtag algorithms and attributes, as well as index choices and techniques.
 
 ---
-`COURSE:2 INTERMEDIATE POSTGRESQL`
 ## Module 4: Regular Expressions
 In our final week, we will focus on regular expressions: their functions, and how to construct them to select rows from a table that match a pattern.
 
