@@ -117,6 +117,8 @@ The query returns a table with the track title, artist name, album title, and ge
 | About to Rock | AC/DC         | Who Made Who  | Metal  |
 | Who Made Who  | AC/DC         | Who Made Who  | Metal  |
 
+![Using JOINs Across Tables](assets/img/using_join_accross_tables_example.png "Example of JOINs Across Tables")
+
 ## Important Notes
 Order: Execute CREATE TABLE before INSERT. Insert into artist and genre before album and track (due to foreign keys).
 Data Types: Ensure data types match. Strings are in single quotes (e.g., 'Artist Name'), numbers are not.
