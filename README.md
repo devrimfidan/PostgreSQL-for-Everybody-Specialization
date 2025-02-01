@@ -73,3 +73,14 @@ INSERT INTO track (title, rating, len, count, album_id, genre_id)
 VALUES ('Smoke on the Water', 5, 300, 0, 3, 3);
 
 -- Add more INSERT statements as needed.
+
+
+## Important Notes
+Order: Execute CREATE TABLE before INSERT. Insert into artist and genre before album and track (due to foreign keys).
+Data Types: Ensure data types match. Strings are in single quotes (e.g., 'Artist Name'), numbers are not.
+Foreign Keys: album_id and genre_id in track must reference valid ids in album and genre.
+ON DELETE CASCADE: Deleting an artist deletes related album and track rows automatically.
+Customization: Modify table/column names, data types, and constraints as needed.
+
+## Acknowledgements
+Inspired by the PostgreSQL for Everybody Specialization by Dr. Chuck.  Grateful for his teaching and resources.
