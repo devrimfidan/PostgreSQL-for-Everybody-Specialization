@@ -23,8 +23,7 @@ By the time I complete this specialization, hopefully I will be able to:
 - Apply database design principles to solve practical problems.
 
 ---
-# COURSE 1: Database Design and Basic SQL in PostgreSQL
-
+`COURSE 1: Database Design and Basic SQL in PostgreSQL`
 # Module 1: Introduction to SQL
 
 In this module, I dive into SQL fundamentals, learning the basic syntax, creating tables, and inserting data.
