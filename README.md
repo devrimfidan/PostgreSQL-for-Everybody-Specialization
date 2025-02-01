@@ -80,11 +80,6 @@ CREATE TABLE track (
 ```
 
 #### 2. **Inserting Data (`INSERT INTO`)**
-- Retrieve all artists:
-
-```sql
-SELECT * FROM artist;
-```
 
 - Insert a new artist:
 
@@ -118,6 +113,14 @@ VALUES ('Smoke on the Water', 5, 300, 0, 3, 3);
 
 -- Add more INSERT statements as needed.
 ```
+
+#### 3. **Querying Data (`SELECT`)**
+- Retrieve all artists:
+
+```sql
+SELECT * FROM artist;
+```
+
 
 ---
 
