@@ -37,13 +37,13 @@ In this module, I dive into SQL fundamentals, learning the basic syntax, creatin
 
 ### Exercises
 
-- Introductory SQL exercises
 - Setting up an initial database
 - Creating tables
 - Inserting data into tables
 
-### Example: Table Creation
+### Sample Queries
 
+- Table Creation:
 
 ```sql
 CREATE TABLE artist (
@@ -78,7 +78,6 @@ CREATE TABLE track (
 );
 ```
 
-### Sample Queries
 
 - Retrieve all artists:
 
@@ -141,6 +140,7 @@ Here, I focus on working with a single table and explore advanced querying techn
 
 ### Sample Queries
 
+### 1. **Filtering Data (`WHERE` clause)**
 - Retrieve all albums by a specific artist:
 
 ```sql
