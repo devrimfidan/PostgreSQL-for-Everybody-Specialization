@@ -157,6 +157,28 @@ SELECT * FROM album WHERE artist_id = 1;
 SELECT COUNT(*) FROM album;
 ```
 
+- Retrieve all tracks with a rating higher than 4:
+```sql
+SELECT * FROM track WHERE rating > 4;
+```
+
+#### 2. **Sorting Data (`ORDER BY` clause)**
+
+- Retrieve all tracks and sort them by length in descending order:
+```sql
+SELECT * FROM track ORDER BY len DESC;
+```
+
+- Retrieve all artists and sort them by name alphabetically:
+```sql
+SELECT * FROM artist ORDER BY name ASC;
+```
+
+- Retrieve all albums and order them by title:
+```sql
+SELECT * FROM album ORDER BY title;
+```
+
 ---
 
 # Module 3: One-To-Many Data Models
