@@ -140,7 +140,7 @@ Here, I focus on working with a single table and explore advanced querying techn
 
 ### Sample Queries
 
-### 1. **Filtering Data (`WHERE` clause)**
+#### 1. **Filtering Data (`WHERE` clause)**
 - Retrieve all albums by a specific artist:
 
 ```sql
