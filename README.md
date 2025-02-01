@@ -6,8 +6,7 @@ I've created this space **for learning purposes only**, based on the **PostgreSQ
 
 Through this specialization, I explore SQL (Structured Query Language) and database design principles. I cover fundamental SQL syntax, working with single and multiple tables, and designing databases with one-to-many and many-to-many relationships. With hands-on exercises and practical examples, I develop the skills needed to effectively interact with and manage relational databases.
 
-# COURSE 1 - Database Design and Basic SQL in PostgreSQL
----
+## COURSE 1: Database Design and Basic SQL in PostgreSQL
 - [**Module 1: Introduction to SQL**](#module-1-introduction-to-sql)
 - [**Module 2: Single Table SQL**](#module-2-single-table-sql)
 - [**Module 3: One-To-Many Data Models**](#module-3-one-to-many-data-models)
@@ -24,7 +23,7 @@ By the time I complete this specialization, hopefully I will be able to:
 - Apply database design principles to solve practical problems.
 
 ---
-
+# COURSE 1: Database Design and Basic SQL in PostgreSQL
 
 # Module 1: Introduction to SQL
 
