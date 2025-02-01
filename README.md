@@ -131,7 +131,7 @@ Data Types: Ensure data types match. Strings are in single quotes (e.g., 'Artist
 Foreign Keys: album_id and genre_id in track must reference valid ids in album and genre.
 ON DELETE CASCADE: Deleting an artist deletes related album and track rows automatically.
 Customization: Modify table/column names, data types, and constraints as needed.
-
+---
 
 # Module 2: Single Table SQL
 
@@ -153,6 +153,8 @@ This module focuses on working with single tables in SQL. We will explore more a
 
 ## Resources
 
+---
+
 # Module 3: One-To-Many Data Models
 
 This module introduces the concept of one-to-many relationships in database design.  We will learn how to model these relationships using foreign keys.
@@ -170,9 +172,7 @@ This module introduces the concept of one-to-many relationships in database desi
 *   Working with automobile data (example)
 
 ## Resources
-
-
-## SQL Query with JOINs
+### SQL Query with JOINs
 
 The following SQL query demonstrates how to use JOINs to retrieve data from multiple related tables in a music database.
 
@@ -194,7 +194,7 @@ The query returns a table with the track title, artist name, album title, and ge
 | Who Made Who  | AC/DC         | Who Made Who  | Metal  |
 
 ![Using JOINs Across Tables](assets/img/using_join_accross_tables_example.png "Example of JOINs Across Tables")
-
+---
 
 # Module 4: Many-To-Many Data Models
 
