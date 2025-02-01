@@ -1,7 +1,5 @@
 # PostgreSQL-for-Everybody-Specialization
 
-# SQL Queries for Music Database
-
 This repository contains SQL queries for creating and populating a music database, designed as part of the PostgreSQL for Everybody Specialization offered by Dr. Chuck.
 
 ## Table Creation
