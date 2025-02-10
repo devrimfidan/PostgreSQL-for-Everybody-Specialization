@@ -13,10 +13,10 @@ Through this specialization, I explore SQL (Structured Query Language) and datab
 - [**Module 4: Many-To-Many Data Models**](https://github.com/devrimfidan/PostgreSQL-for-Everybody-Specialization/blob/main/Course_1/introduction_to_sql.md#module-4-many-to-many-data-models)
 
 ### `Course 2: Intermediate PostgreSQL`
-- [Module 1: SQL Techniques](#module-1-sql-techniques)
-- [Module 2: Using SQL Techniques](#module-2-using-sql-techniques)
-- [Module 3: Text in PostgreSQL](#module-3-text-in-postgresql)
-- [Module 4: Regular Expressions](#module-4-regular-expressions)
+- [Module 1: SQL Techniques](https://github.com/devrimfidan/PostgreSQL-for-Everybody-Specialization/blob/main/Course_2/intermediate_postgresql.md/#module-1-sql-techniques)
+- [Module 2: Using SQL Techniques](https://github.com/devrimfidan/PostgreSQL-for-Everybody-Specialization/blob/main/Course_2/intermediate_postgresql.md#module-2-using-sql-techniques) 
+- [Module 3: Text in PostgreSQL](https://github.com/devrimfidan/PostgreSQL-for-Everybody-Specialization/blob/main/Course_2/intermediate_postgresql.md/#module-3-text-in-postgresql)
+- [Module 4: Regular Expressions](https://github.com/devrimfidan/PostgreSQL-for-Everybody-Specialization/blob/main/Course_2/intermediate_postgresql.md/#module-4-regular-expressions)
 
 
 ## Learning Objectives
